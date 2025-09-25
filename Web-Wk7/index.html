@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS & JavaScript Animation Demo</h1>
+
+    <!-- Button with hover effect -->
+    <button class="hover-btn">Hover Over Me</button>
+
+    <!-- Animated box triggered by button -->
+    <div class="box" id="animateBox"></div>
+    <button id="triggerBtn">Animate Box</button>
+
+    <!-- Card flip -->
+    <div class="card" id="flipCard">
+        <div class="card-inner">
+            <div class="card-front">Front</div>
+            <div class="card-back">Back</div>
+        </div>
+    </div>
+
+    <!-- Popup modal -->
+    <button id="openModal">Open Modal</button>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <p>This is a sliding & fading modal!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
